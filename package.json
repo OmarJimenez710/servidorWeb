@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "creación de un web server",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/app.js"
   },
