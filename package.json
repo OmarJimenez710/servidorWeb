@@ -1,0 +1,19 @@
+{
+  "name": "webserver",
+  "version": "0.0.1",
+  "description": "creación de un web server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "OmarFlores",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.2",
+    "express": "^4.19.2"
+  }
+}
